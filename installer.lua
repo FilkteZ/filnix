@@ -9,5 +9,6 @@ shell.run("wget https://raw.githubusercontent.com/FilkteZ/filnix/main/pid%20fron
 shell.run("wget https://raw.githubusercontent.com/FilkteZ/filnix/main/pid%20back.lua /pid/pidback.lua")
 shell.run("wget https://raw.githubusercontent.com/FilkteZ/filnix/main/pid%20rleft.lua /pid/pidrleft.lua")
 shell.run("wget https://raw.githubusercontent.com/FilkteZ/filnix/main/pid%20rright.lua /pid/pidrright.lua")
-shell.run("wget https://raw.githubusercontent.com/FilkteZ/filnix/main/pid%20main.lua /pidmain.lua")
+shell.run("wget https://raw.githubusercontent.com/FilkteZ/filnix/main/pid%20main.lua /pid/pidmain.lua")
 print("Done!")
+print("launch /pid/pidmain")
