@@ -1,0 +1,8 @@
+shell.run(pid up.lua)
+shell.run(pid down.lua)
+shell.run(pid left.lua)
+shell.run(pid right.lua)
+shell.run(pid front.lua)
+shell.run(pid back.lua)
+shell.run(pid rleft.lua)
+shell.run(pid rright.lua)
