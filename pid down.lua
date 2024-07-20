@@ -1,13 +1,13 @@
 local config = fs.open("config.lua","r")
-fr = peripheral.wrap(file.readLine(7))
-fl = peripheral.wrap(file.readLine(9))
-br = peripheral.wrap(file.readLine(11))
-bl = peripheral.wrap(file.readLine(13))
-r1 = peripheral.wrap(file.readLine(15))
-r2 = peripheral.wrap(file.readLine(17))
-l = file.readLine(1)
-m = file.readLine(3)
-n = file.readLine(5)
+fr = peripheral.wrap(file.readLine())
+fl = peripheral.wrap(file.readLine())
+br = peripheral.wrap(file.readLine())
+bl = peripheral.wrap(file.readLine())
+r1 = peripheral.wrap(file.readLine())
+r2 = peripheral.wrap(file.readLine())
+l = file.readLine()
+m = file.readLine()
+n = file.readLine()
 function down()
 if r1.getInput("bottom", true) == true then
 fl.setTargetSpeed(l)
@@ -22,6 +22,6 @@ br.setTargetSpeed()
 end
 end
 x=1
-while==1
+while x==1
 do down()
 end
