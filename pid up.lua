@@ -1,4 +1,4 @@
-local config = fs.open("/pid/config.lua","r")
+local file = fs.open("/pid/config.lua","r")
 fr = peripheral.wrap(file.readLine())
 fl = peripheral.wrap(file.readLine())
 br = peripheral.wrap(file.readLine())
